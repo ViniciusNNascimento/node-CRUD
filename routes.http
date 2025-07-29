@@ -1,0 +1,31 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+
+{
+    "title": "Video node",
+    "description": "esse e o primeiro video",
+    "duration": 180
+    
+}
+
+###
+
+GET http://localhost:3333/videos?search=node
+
+###
+
+PUT http://localhost:3333/videos/a6a21d14-5364-4433-8f6c-c626361d342a
+Content-Type: application/json
+
+
+{
+    "title": "classroom of the elite",
+    "description": "esse e o primeiro video",
+    "duration": 210
+    
+}
+
+###
+
+DELETE http://localhost:3333/videos/a6a21d14-5364-4433-8f6c-c626361d342a
